@@ -1,28 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/emberly');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Emberly', sans-serif;
+}
+
 header {
-    background-color: blue;
-    color: white;
+    background-color: #3E1634;
+    color: #E6B9A5;
     padding: 20px;
     grid-area: header;
 }
 
 nav {
-    background-color: yellow;
+    background-color: #110B0A;
+    color: #E6B9A5;
     grid-area: nav;
 }
 
 main {
-    background-color: darkblue;
-    color: white;
+    background-color: #110B0A;
+    color: #E6B9A5;
     grid-area: main;
 }
 
+photo {
+    background-color: #110B0A;
+    color: #E6B9A5;
+    grid-area: photo;
+}
+
 aside {
-    background-color: lightgreen;
+    background-color: #110B0A;
     grid-area: aside;
+    padding: 2vh 45%;
 }
 
 footer {
-    background-color: darkgreen;
-    color: white;
+    background-color: #7D2F5F;
+    color: #E6B9A5;
     grid-area: footer;
 }

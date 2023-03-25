@@ -4,13 +4,14 @@ body {
     grid-template-rows: auto;
     grid-template-areas:
         "header header header"
-        "nav nav nav"
-        "main main aside"
+        "nav photo aside"
+        "main photo aside"
         "footer footer footer";
 }
 
 nav {
-    background-color: yellow;
+    background-color: #110B0A;
+    color: #E6B9A5;
 }
 
 nav ul {
@@ -27,7 +28,7 @@ nav>ul>li {
 nav ul ul {
     position: absolute;
     display: block;
-    background-color: green;
+    background-color: #7D2F5F;
     padding: 0;
     width: 100%;
     display: none;
@@ -35,4 +36,13 @@ nav ul ul {
 
 nav>ul>li:hover ul {
     display: block;
+}
+
+.photo img {
+    width: 95%;
+    padding: 2vh;
+}
+
+.home {
+    padding: 8vh;
 }
