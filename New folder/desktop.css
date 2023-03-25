@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-columns: 71% 21% 8%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "footer footer footer";
+}
+
+nav {
+    background-color: yellow;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+nav ul ul {
+    position: absolute;
+    display: block;
+    background-color: green;
+    padding: 0;
+    width: 100%;
+    display: none;
+}
+
+nav>ul>li:hover ul {
+    display: block;
+}
