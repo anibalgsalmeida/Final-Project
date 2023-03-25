@@ -46,3 +46,15 @@ nav>ul>li:hover ul {
 .home {
     padding: 8vh;
 }
+
+aside a {
+    font-size: 15em;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 2em;
+
+}
