@@ -101,3 +101,7 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#7D2F5F; }
+
+.photo img {
+    max-width: 100%;
+  }
