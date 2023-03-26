@@ -13,7 +13,7 @@ body {
 .showNav {
     height: 0.8em;
     width: 1.25em;
-    display: block;
+    display: none;
     border-top: 0.2em solid white;
     border-bottom: 0.2em solid white;
     border-radius: 0.1em;
@@ -29,7 +29,7 @@ body {
 
 nav {
     display: none;
-    background-color: yellow;
+    background-color: #110B0A;
     position: fixed;
     top: 0;
     left: 50%;
@@ -56,3 +56,52 @@ nav {
 #clicked:target nav {
     display: block;
 }
+
+a {color: #E6B9A5;
+    font-size: 25px;
+}
+form { max-width:600px; margin:50px auto; }
+
+.contact {
+  color:white;
+  font-weight:500;
+  font-size: 25px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid white;
+  transition: all 0.3s;
+  padding: 18px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+textarea {
+  height: 200px;
+  line-height: 200%;
+  resize:vertical;
+}
+
+.contact:focus { border:2px solid #7D2F5F; }
+
+[type="submit"] {
+  width: 100%;
+  background:white;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#110B0A;
+  font-size:34px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#7D2F5F; }
+
+.photo img {
+    max-width: 100%;
+  }
